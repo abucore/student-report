@@ -19,7 +19,7 @@ while True:
                 "maths":maths,
                 "physics":physics
             }
-        print("student added succesfully")
+            print("student added succesfully")
     elif a==2:
          for name,marks in student.items():
             print("name:",name)
@@ -51,4 +51,5 @@ while True:
         print("program exiting")
         break
     else:
+
         print("invalid option chosen")
